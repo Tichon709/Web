@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html"><img src="C:\Users\79161\Desktop\DS/logo.jpg"
+                alt = "Логотип" width="100" height="50"></a></li>
+            <li><a href="index.html">О себе</a></li>
+            <li><a href="#competencies">Компетенции</a></li>
+            <li><a href="#resume">Резюме</a></li>
+            <li><a href="#portfolio">Портфолио</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Веб - технологии 2011</h1>
+        <h4>Университет Дубна</h4>
+    </header>
+
+
+
+    <hr>
+        <form>
+        <div><!--для серверной части name, id для -->
+        </div>
+        <div> Как с вами связаться?</div>
+        <label for="c_mail">
+        <input type="radio" name="com_tion" id="c_mail">по почте</label>
+        <br>
+        <label for="c_tel">
+        <input type="radio"name="com_tion" id="c_tel"> по телефону
+        </label><br>
+        <label for="c_none">
+        <input type="radio" name="com_tion" id="c_none">не отвечать</label>
+        <br><input type="submit" value="отправить вопрос"><br>
+        <p>Укажите тему вопроса</p>
+    <select name="theme">
+        <option value="work">работа</option>
+        <option value="study">учеба</option>
+        <option value="other">другое</option>
+    </select>
+    <p>И еще один вопрос?</p>
+    <label><input type="checkbox" name="q1"> может так</label><br>
+    <label><input type="checkbox" name="q2"> или не так</label><br>
+    <label><input type="checkbox" name="q3"> иначе</label><br>
+
+    <!-- Текстовые поля -->
+    <p>Ваше имя <input type="text" name="username"></p>
+    <p>адрес почты <input type="email" name="email"></p>
+    <p>номер телефона <input type="tel" name="phone"></p>
+
+    <!-- Многострочное поле -->
+    <p>Ваш вопрос:<br>
+    <textarea name="question" rows="5" cols="40"></textarea></p>
+
+    <!-- Кнопка -->
+    <input type="submit" value="отправить вопрос">
+</form>
+
+    <footer>
+        <p>Сайт разработан Смирновым Тихоном, ©2026 </p>
+        <p>Телефон: +71233210300</p>
+    </footer>   
+</body>
+</html>
